@@ -1,0 +1,66 @@
+body{
+    background-color: #faebd79d;
+    text-align: center;
+
+}
+
+h1{
+    text-align: center;
+    color: #000;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+p{
+    font-size: 22px;
+    font-weight: 900;
+    margin: 0;
+}
+
+#gen{
+    width: 30%;
+    border-radius: 50px;
+
+}
+
+#fac{
+    width: 10%;
+}
+
+form{
+    background: linear-gradient(#2092afc0, #475ab3d0);
+    width: 20%;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 80px;
+}
+form label,
+form text area,
+form select,
+form button{
+
+    width: 100%;
+    display: block;
+    font-size: 22px;
+    font-weight: 100;
+    border-radius: 10px;
+}
+form input{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+
+}
+
+form button{
+    background-color: #000;
+    color: #ffffff;  
+    padding: 15px 50px;
+    font-size: 22px;
+    width: 100%;    
+}
+form button:hover{
+    background: transparent;
+    border: 2px solid #ffffff; 
+}
